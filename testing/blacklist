@@ -1,0 +1,5 @@
+local Player = Game.LocalPlayer
+local Banned = Player.UserId == 1654395086
+if banned then
+    game.LocalPlayer:Kick("You are are not allowed to use this.")
+end
