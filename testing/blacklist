@@ -1,5 +1,6 @@
-local Player = Game.LocalPlayer
-local Banned = Player.UserId == 1654395086
-if banned then
-    game.LocalPlayer:Kick("You are are not allowed to use this.")
+local Player = game.Players.LocalPlayer
+local Banned = Player.UserId == 2285219503 or Player.UserId == 2603214510 or Player.UserId == 1160958289
+if Banned == true then
+	game:GetService('Players').LocalPlayer:Kick("Leave!")
+	print("A blacklisted player attempted to join and was kicked.")
 end
